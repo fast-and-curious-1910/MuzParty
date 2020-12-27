@@ -1,5 +1,5 @@
 """
-WSGI config for music_con project.
+WSGI config for Music_Controller project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'music_con.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Music_Controller.settings')
 
 application = get_wsgi_application()
