@@ -1,5 +1,6 @@
 import React, { Component } from "react"  // We destructure Component from react 
 import {render } from "react-dom" // Very important
+import HomePage from './HomePage'
 
 class App extends Component {
     constructor(props) {
@@ -9,7 +10,7 @@ class App extends Component {
     render() {
         return (
         <div> 
-            <h1> Hello World</h1>
+            <HomePage/>
         </div>) // This is not a string , this is a JSX element. React also requires one parent element
     }
 };
